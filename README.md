@@ -8,19 +8,23 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 ```bash
 git clone https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis.git
 ```
-2. Create a virtual Environment
+2. Create & activate virtual Environment
 ```
-virtualenv venv
+virtualenv --no-site-packages venv
+source venv/bin/activate
 ``` 
-2. Run the product data scraper
+3. Install dependencies
+```
+pip install -r requirements.txt
+```
+4. Run the product data scraper
 ```bash
 python product_data_scraper.py
 ```
-3. Run the subcategories data scraper
+5. Run the subcategories data scraper
 ```bash
 python subcategory_scraper.py
 ```
-
 
 ## What [Analysis](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data) to be found out: - ##
 * How many subcategories does each category have? 
