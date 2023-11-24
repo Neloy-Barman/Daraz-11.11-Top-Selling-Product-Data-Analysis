@@ -1,7 +1,7 @@
-# Daraz-11.11-Top-Selling-Product-Data-Analysis #
+# Daraz 11.11 Top Selling Product Data Analysis #
 ## Objective
-A 11.11 sale was going on daraz where discount was given on most of the products. From each category, we will go to the subcategories page. 
-Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using tableau. 
+11.11 sale was going on daraz where discount was given on most of the products. From each category, we will go to the subcategories page. 
+Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau. 
 
 ## What [Analysis](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data) to be found out: - ##
 * How many subcategories does each category have? 
@@ -20,6 +20,13 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * Among the categories, which subcategories are offered with the most & the least discounts?
 * As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?
 ## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
+
+## Some snaps from analysis
+|||
+|---|---|
+|![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)|![product_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/c59eeca2-c1fb-42ed-8a8a-4c05249113b0)|
+|![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)|![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)|
+
 
 ## How to use: - 
 1. Clone the repo
