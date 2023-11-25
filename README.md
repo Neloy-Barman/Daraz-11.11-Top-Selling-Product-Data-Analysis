@@ -6,8 +6,8 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 ## What [Analysis](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data) to be found out: - ##
 * How many subcategories does each category have? 
 * Among all the products, how many of them are offered with standard delivery and free delivery? 
-* How many Flagship and General Stores are there? 
-* Which category is offered with the most and the least discount? 
+* How many Flagship and General Stores are there? Which one is more in number ?
+* Which category is offered with the most and the least discount?  
 * Which product has the most discount? What was its original and discount price? How much the discount prices scatter from the original prices?
 * Considering all types of ratings, which product has the highest number of ratings among all the categories and also subcategories? 
 * How many unique products are sold by each seller? Which seller is selling the most number of products based on category and subcategories?
