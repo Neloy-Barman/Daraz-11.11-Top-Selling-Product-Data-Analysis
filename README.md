@@ -21,6 +21,29 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?
 ## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
 
+## Some Findings from the dashboards
+* Daraz offered more products with free delivery facility than the ones with standard delivery. 
+* There are more non-flagship stores than the flagship ones within Daraz.
+* Categorywise the most and the least average discounts offered: - 
+  * Men's & Boy's Fashion :- 52.17%
+  * Groceries :- 22.32%
+* Top 3 products with most nunber of ratings
+  * Among all categories :-   
+    * Diamond potato 1kg+25 gm -> 11914
+    * S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen -> 8908
+    * Local Onion 1 kg (± 25 gm) - onion -> 6280
+* Top 3 sellers selling most numnber of distinct products: -
+  * Daraz Fresh - 114
+  * SWAP - 101
+  * Well-being Distribution Ltd. - 66  
+* There are many sellers who sells products in different categories.
+* A seller's Avg.
+  * Chat Response Rate(%)
+  * Positive Seller Ratings(%)
+  * Ship On Time(%)
+    don't affect it on being a flagship seller.       
+
+
 ## Snaps from analysis
 |||
 |---|---|
