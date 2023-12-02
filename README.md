@@ -29,7 +29,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   * Groceries :- 22.32%
 * Top 3 products with most nunber of ratings
   * Among all categories :-   
-    * Diamond potato 1kg+25 gm -> 11914
+    * Diamond potato 1kg±25 gm -> 11914
     * S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen -> 8908
     * Local Onion 1 kg (± 25 gm) - onion -> 6280
 * Top 3 sellers selling most numnber of distinct products: -
@@ -40,16 +40,14 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * A seller's Avg.
   * Chat Response Rate(%)
   * Positive Seller Ratings(%)
-  * Ship On Time(%)
-    don't affect it on being a flagship seller.       
-
-
+  * Ship On Time(%) <br/>
+           don't affect it on being a flagship seller.
+    
 ## Snaps from analysis
 |||
 |---|---|
 |![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)|![product_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/c59eeca2-c1fb-42ed-8a8a-4c05249113b0)|
 |![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)|![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)|
-
 
 ## How to use: - 
 1. Clone the repo
@@ -73,3 +71,8 @@ python product_data_scraper.py
 ```bash
 python subcategory_scraper.py
 ```
+
+## Challenges faced
+* The data scraper got stopped after running for hours. In that case, I had to restart the scraper and scrape from there mannualy.
+* There are some unique data eleements, there it showed different characteristics. But this was written for the general case. For this, I again had to restart and scrape.
+* As there are many categories, so, it takes a lot of time to scrape all the data.            
