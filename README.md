@@ -59,7 +59,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   * Chat Response Rate(%)
   * Positive Seller Ratings(%)
   * Ship On Time(%) <br/>
-    $ ~~~~~~~~~~ $ don't affect it on being a flagship seller.
+    don't affect it on being a flagship seller.
 ### Break-even point & sub-caterical average discount analysis 
 ![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
 * There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.<br/>
