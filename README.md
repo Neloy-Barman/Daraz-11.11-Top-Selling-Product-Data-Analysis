@@ -19,10 +19,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
     affects a seller on being a flagship store?
 * Among the categories, which subcategories are offered with the most & the least discounts?
 * As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?
-## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
-
 ## Analysis and Observations
-
 ### Overall Data Analysis
 ![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)
 * Number of sub-categories within the categories ranges from 7-12.
@@ -94,7 +91,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   * Discount: 33.64<br/>
     Sub-category: Cooking Ingredents<br/>
     Category: Groceries<br/>
-
+## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
 ## How to use: - 
 1. Clone the repo
 ```bash
