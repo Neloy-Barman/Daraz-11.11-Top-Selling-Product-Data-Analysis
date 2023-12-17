@@ -21,30 +21,8 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?
 ## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
 
-## Some Findings from the dashboards
-* Daraz offered more products with free delivery facility than the ones with standard delivery. 
-* There are more non-flagship stores than the flagship ones within Daraz.
-* Categorywise the most and the least average discounts offered: - 
-  * Men's & Boy's Fashion :- 52.17%
-  * Groceries :- 22.32%
-* Top 3 products with most nunber of ratings
-  * Among all categories :-   
-    * Diamond potato 1kg±25 gm -> 11914
-    * S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen -> 8908
-    * Local Onion 1 kg (± 25 gm) - onion -> 6280
-* Top 3 sellers selling most numnber of distinct products: -
-  * Daraz Fresh - 114
-  * SWAP - 101
-  * Well-being Distribution Ltd. - 66  
-* There are many sellers who sells products in different categories.
-    
-## Snaps from analysis
-|||
-|---|---|
-|![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)|![product_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/c59eeca2-c1fb-42ed-8a8a-4c05249113b0)|
-|![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)|![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)|
-
 ## Analysis and Observations
+
 ### Overall Data Analysis
 ![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)
 * Number of sub-categories within the categories ranges from 7-12.
@@ -71,6 +49,11 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.
 ### Seller Data Analysis
 ![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)
+* Top 3 sellers selling most number of distinct products: -
+  * Daraz Fresh - 114
+  * SWAP - 101
+  * Well-being Distribution Ltd. - 66  
+* There are many sellers who sells products in different categories and also in various sub-categories.
 * A seller's Avg.
   * Chat Response Rate(%)
   * Positive Seller Ratings(%)
@@ -79,24 +62,37 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 ### Break-even point & sub-caterical average discount analysis 
 ![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
 * There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.<br/>
-* Sub-categorical most discount - 
-|||
-| -------- | ------------ | ---------------- |
-| Category | Sub-category | Average Discount |
-| Men's & Boy's Fashion | Accessories | 67.52 |
-| Watches, Bags, Jewellery | Shop Men's Bags Online in Bangladesh | 61.55 |
-| Electronic Devices | Mobile Accessories | 51.18 |
-| Electronic Accessories | Audio | 49.89 |
-| Mother & Baby | Sports & Outdoor Play | 46.18 |
-| Sports & Outdoors | Shoes & Clothing | 46.36 |
-| Automotive & Motorbike | Interior Accessories | 44.84 |
-| TV & Home Appliances | TV & Video Accessories | 41.11 |
-| Health & Beauty | Beauty Tools | 38.64 |
-| Groceries | Cooking Ingredents | 33.64 |
-
-
-
-
+* Sub-categorical most discount -<br/>
+  * Discount: 67.52<br/>
+    Sub-category:  Accessories  <br/>
+    Category: Men's & Boy's Fashion<br/>
+  * Discount: 61.55<br/>
+    Sub-category:  Shop Men's Bags Online in Bangladesh  <br/>
+    Category: Watches, Bags, Jewellery<br/>
+  * Discount: 51.18<br/>
+    Sub-category:  Mobile Accessories <br/>
+    Category: Electronic Devices <br/>
+  * Discount: 49.89<br/>
+    Sub-category:  Audio <br/>
+    Category: Electronic Accessories<br/>
+  * Discount: 46.18<br/>
+    Sub-category: Sports & Outdoor Play <br/>
+    Category: Mother & Baby<br/>
+  * Discount: 46.36<br/>
+    Sub-category: Shoes & Clothing <br/>
+    Category: Sports & Outdoors<br/>
+  * Discount: 44.84<br/>
+    Sub-category: Interior Accessories<br/>
+    Category: Automotive & Motorbike<br/>
+  * Discount: 41.11<br/>
+    Sub-category: TV & Video Accessories<br/>
+    Category: TV & Home Appliances<br/>
+  * Discount: 38.64<br/>
+    Sub-category: Beauty Tools<br/>
+    Category: Beauty Tools<br/>
+  * Discount: 33.64<br/>
+    Sub-category: Cooking Ingredents<br/>
+    Category: Groceries<br/>
 
 ## How to use: - 
 1. Clone the repo
