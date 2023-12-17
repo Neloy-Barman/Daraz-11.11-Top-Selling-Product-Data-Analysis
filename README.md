@@ -1,5 +1,5 @@
 # Daraz 11.11 Top Selling Product Data Analysis #
-## Objective
+## Problem Statement
 11.11 sale was going on [daraz](https://www.daraz.com.bd/) where discount was given on most of the products. From each category, we will go to the subcategories page. 
 Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau. 
 
