@@ -37,11 +37,6 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   * SWAP - 101
   * Well-being Distribution Ltd. - 66  
 * There are many sellers who sells products in different categories.
-* A seller's Avg.
-  * Chat Response Rate(%)
-  * Positive Seller Ratings(%)
-  * Ship On Time(%) <br/>
-           don't affect it on being a flagship seller.
     
 ## Snaps from analysis
 |||
@@ -74,8 +69,35 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   * S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen - 8908
   * Local Onion 1 kg (± 25 gm) - onion - 6280
 * There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.
+### Seller Data Analysis
 ![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)
+* A seller's Avg.
+  * Chat Response Rate(%)
+  * Positive Seller Ratings(%)
+  * Ship On Time(%) <br/>
+    $~~~~~~~~~~$ don't affect it on being a flagship seller.
+### Break-even point & sub-caterical average discount analysis 
 ![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
+* There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.<br/>
+* Sub-categorical most discount - 
+|||
+| -------- | ------------ | ---------------- |
+| Category | Sub-category | Average Discount |
+| Men's & Boy's Fashion | Accessories | 67.52 |
+| Watches, Bags, Jewellery | Shop Men's Bags Online in Bangladesh | 61.55 |
+| Electronic Devices | Mobile Accessories | 51.18 |
+| Electronic Accessories | Audio | 49.89 |
+| Mother & Baby | Sports & Outdoor Play | 46.18 |
+| Sports & Outdoors | Shoes & Clothing | 46.36 |
+| Automotive & Motorbike | Interior Accessories | 44.84 |
+| TV & Home Appliances | TV & Video Accessories | 41.11 |
+| Health & Beauty | Beauty Tools | 38.64 |
+| Groceries | Cooking Ingredents | 33.64 |
+
+
+
+
+
 ## How to use: - 
 1. Clone the repo
 ```bash
