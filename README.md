@@ -60,37 +60,22 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 ### Break-even point & sub-caterical average discount analysis 
 ![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
 * There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.<br/>
+
 * Sub-categorical most discount -<br/>
-  * Discount: 67.52<br/>
-    Sub-category:  Accessories  <br/>
-    Category: Men's & Boy's Fashion<br/>
-  * Discount: 61.55<br/>
-    Sub-category:  Shop Men's Bags Online in Bangladesh  <br/>
-    Category: Watches, Bags, Jewellery<br/>
-  * Discount: 51.18<br/>
-    Sub-category:  Mobile Accessories <br/>
-    Category: Electronic Devices <br/>
-  * Discount: 49.89<br/>
-    Sub-category:  Audio <br/>
-    Category: Electronic Accessories<br/>
-  * Discount: 46.18<br/>
-    Sub-category: Sports & Outdoor Play <br/>
-    Category: Mother & Baby<br/>
-  * Discount: 46.36<br/>
-    Sub-category: Shoes & Clothing <br/>
-    Category: Sports & Outdoors<br/>
-  * Discount: 44.84<br/>
-    Sub-category: Interior Accessories<br/>
-    Category: Automotive & Motorbike<br/>
-  * Discount: 41.11<br/>
-    Sub-category: TV & Video Accessories<br/>
-    Category: TV & Home Appliances<br/>
-  * Discount: 38.64<br/>
-    Sub-category: Beauty Tools<br/>
-    Category: Beauty Tools<br/>
-  * Discount: 33.64<br/>
-    Sub-category: Cooking Ingredents<br/>
-    Category: Groceries<br/>
+
+| **Category** | **Sub-category** | **Discount** | 
+| ------------ | ---------------- | ------------ |
+| <p align="center">Men's & Boy's Fashion</p> | <p align="center">Accessories</p> | <p align="center">67.52</p> |
+| <p align="center">Watches, Bags, Jewellery</p> | <p align="center">Shop Men's Bags Online in Bangladesh</p> | <p align="center">61.55</p> |
+| <p align="center">Electronic Device</p> | <p align="center">Mobile Accessories</p> | <p align="center">51.18</p> |
+| <p align="center">Electronic Accessories</p> | <p align="center">Audio</p> | <p align="center">49.89</p> |
+| <p align="center">Mother & Baby</p> | <p align="center">Sports & Outdoor Play</p> | <p align="center">46.18</p> |
+| <p align="center">Sports & Outdoors</p> | <p align="center">Shoes & Clothing</p> | <p align="center">46.36</p> |
+| <p align="center">Automotive & Motorbike</p> | <p align="center">Interior Accessories</p> | <p align="center">44.84</p> |
+| <p align="center">TV & Home Appliances</p> | <p align="center">TV & Video Accessories</p> | <p align="center">41.11</p> |
+| <p align="center">Health & Beauty</p> | <p align="center">Beauty Tools</p> | <p align="center">38.64</p> |
+| <p align="center">Groceries</p> | <p align="center">Cooking Ingredents</p> | <p align="center">33.64</p> |
+
 ## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
 ## How to use: - 
 1. Clone the repo
