@@ -32,36 +32,52 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 * Categorically the most discount was offered in Men's & Boy's Fashion and the least discount was offered within Groceries.
 ### Product Data Analysis
 ![product_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/c59eeca2-c1fb-42ed-8a8a-4c05249113b0)
-* Top 3 most discounted products within all categories -
-  * (11 Taka Deal) Dancing cactus talking cactus Stuffed Plush Toy Electronic toy with song plush cactus potted toy Early Education Toy For kids<br/>
-    Discount offered - 98%
-  * New Style Leather feragamo Belt For Men & Black Leather Formal Belt For Men<br/>
-    Discount offered - 92%
-  * Men's Pu Leather Wallet High Quality Men Long Wallet Male Business Pu Leather Purse & Black High quality Leather Long Wallet For Men<br/>
-    Discount offered - 91%
-* There were many products where no discount was offered.
-* Top 3 products with most number of ratings among all categories -
-  * Diamond potato 1kg ± 25 gm - 11914
-  * S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen - 8908
-  * Local Onion 1 kg (± 25 gm) - onion - 6280
-* There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.
+
+* <h4>Top 3 most discounted products within all categories -</h4>
+
+     | <p align="center">Product Name</p> | <p align="center">Discount(%)</p> |
+     | --------------------------------- | ----------------------------------- |
+     | <p align="center">(11 Taka Deal) Dancing cactus talking cactus Stuffed Plush Toy Electronic toy with song plush cactus potted toy Early Education Toy For kids</p> | <p align="center">98</p> |
+     | <p align="center">New Style Leather feragamo Belt For Men & Black Leather Formal Belt For Men</p> | <p align="center">92</p> |
+     | <p align="center">Men's Pu Leather Wallet High Quality Men Long Wallet Male Business Pu Leather Purse & Black High quality Leather Long Wallet For Men</p> | <p align="center">91</p> |
+
+* <h4>There were many products where no discount was offered.</h4>
+
+* <h4>Top 3 products with most number of ratings among all categories -</h4>
+
+     | <p align="center">Product Name</p> | <p align="center">Number of Ratings</p> |
+     | --------------------------------- | ----------------------------------- |
+     | <p align="center">Diamond potato 1kg ± 25 gm</p> | <p align="center">11914</p> |
+     | <p align="center">S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen</p> | <p align="center">8908</p> |
+     | <p align="center">Local Onion 1 kg (± 25 gm) - onion</p> | <p align="center">6280</p> |
+  
+* <h4>There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.</h4>
+
 ### Seller Data Analysis
 ![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)
-* Top 3 sellers selling most number of distinct products: -
-  * Daraz Fresh - 114
-  * SWAP - 101
-  * Well-being Distribution Ltd. - 66  
-* There are many sellers who sells products in different categories and also in various sub-categories.
+
+* <h4>Top 3 sellers selling most number of distinct products: -</h4>
+
+     | <p align="center">Seller Name</p> | <p align="center">Product Count</p> |
+     | --------------------------------- | ----------------------------------- |
+     | <p align="center">Daraz Fresh</p> | <p align="center">114</p> |
+     | <p align="center">SWAP</p> | <p align="center">101</p> |
+     | <p align="center">Well-being Distribution Ltd.</p> | <p align="center">66</p> |
+  
+* <h4>There are many sellers who sells products in different categories and also in various sub-categories.</h4>
+  
 * A seller's Avg.
   * Chat Response Rate(%)
   * Positive Seller Ratings(%)
   * Ship On Time(%) <br/>
     don't affect it on being a flagship seller.
+    
 ### Break-even point & sub-caterical average discount analysis 
 ![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
-* There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.<br/>
 
-* Sub-categorical most discount -<br/>
+* <h4>There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.</h4>
+
+* <h4>Sub-categorical most discount -</h4>
 
 | **Category** | **Sub-category** | **Discount** | 
 | ------------ | ---------------- | ------------ |
@@ -77,6 +93,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 | <p align="center">Groceries</p> | <p align="center">Cooking Ingredents</p> | <p align="center">33.64</p> |
 
 ## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
+
 ## How to use: - 
 1. Clone the repo
 ```bash
