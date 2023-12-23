@@ -9,7 +9,26 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 <h3><code style="color:blue">Data Collection</code></h3>
 
-<strong>I collected all the data data using web scraping with selenium.</strong>
+<strong>I collected all the data data using web scraping with selenium. You can find all the scraper files and the scraped data within "scrapers" folder. The initial dataset contains </strong>
+
+<table>
+ <tr>
+  <td>Dataset Type</td>
+  <td>Tabular</td>
+ </tr>
+ <tr>
+  <td>File Extenstion</td>
+  <td>csv</td>
+ </tr>
+ <tr>
+  <td>Rows</td>
+  <td>12907</td>
+ </tr>
+ <tr>
+  <td>Columns</td>
+  <td>14</td>
+ </tr>
+</table>
 
 <h3><code style="color:blue">Data Cleaning & EDA</code></h3>
 
