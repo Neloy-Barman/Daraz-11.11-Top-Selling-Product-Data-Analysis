@@ -32,7 +32,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 <h3><code style="color:blue">Data Cleaning & EDA</code></h3>
 
-<strong></strong>
+<strong>I performed necessary redundant data cleaning. Then some findings were done using pandas. You can find the data analysis notebook within the notebook folder.</strong>
 
 <h3><code style="color:blue"><a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Analysis</a> Requirements Blueprint</code></h3>
 
