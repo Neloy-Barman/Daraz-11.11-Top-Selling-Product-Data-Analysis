@@ -7,6 +7,14 @@
 <strong>11.11 sale was going on <a href="https://www.daraz.com.bd/">Daraz</a> where discount was given on most of the products. From each category, we will go to the subcategories page. 
 Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau.</strong> 
 
+<h3><code style="color:blue">Data Collection</code></h3>
+
+<strong>I collected all the data data using web scraping with selenium.</strong>
+
+<h3><code style="color:blue">Data Cleaning & EDA</code></h3>
+
+<strong></strong>
+
 <h3><code style="color:blue"><a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Analysis</a> Requirements Blueprint</code></h3>
 
 * <strong>How many subcategories does each category have?</strong> 
