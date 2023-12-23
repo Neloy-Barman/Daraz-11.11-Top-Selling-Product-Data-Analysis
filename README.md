@@ -131,6 +131,8 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 | <p align="center">Health & Beauty</p> | <p align="center">Beauty Tools</p> | <p align="center">38.64</p> |
 | <p align="center">Groceries</p> | <p align="center">Cooking Ingredents</p> | <p align="center">33.64</p> |
 
+<h3><code style="color:blue">How to Use Scraper Files</code></h3>
+
 1. Clone the repo
 ```bash
 git clone https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis.git
@@ -153,7 +155,8 @@ python product_data_scraper.py
 python subcategory_scraper.py
 ```
 
-## Challenges faced
-* The data scraper got stopped after running for hours. In that case, I had to restart the scraper and scrape from there mannualy.
-* There are some unique data eleements, there it showed different characteristics. But this was written for the general case. For this, I again had to restart and scrape.
-* As there are many categories, so, it takes a lot of time to scrape all the data.            
+<h3><code style="color:blue">Challenges Faced</code></h3>
+
+* <strong>In my case, the scrapers got stopped after running for hours. Then I had to find the last scraped index and restart from there.</strong>
+* <strong>While the loop continues to run, some data just may get missed. If checked, then there remains the same elements as others but still may miss.</strong>
+* <strong>As there are many categories along with subcategories so, it took a lot of time to scrape data.</strong>            
