@@ -1,39 +1,51 @@
-# Daraz 11.11 Top Selling Product Data Analysis #
-## Problem Statement
-11.11 sale was going on [daraz](https://www.daraz.com.bd/) where discount was given on most of the products. From each category, we will go to the subcategories page. 
-Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau. 
+<h1>Daraz 11.11 Top Selling Product Data Analysis</h1>
 
-## What [Analysis](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data) to find out: - ##
-* How many subcategories does each category have? 
-* Among all the products, how many of them are offered with standard delivery and free delivery? 
-* How many Flagship and General Stores are there? Which one is more in number ?
-* Which category is offered with the most and the least discount?  
-* Which product has the most discount? What was its original and discount price? How much the discount prices scatter from the original prices?
-* Considering all types of ratings, which product has the highest number of ratings among all the categories and also subcategories? 
-* How many unique products are sold by each seller? Which seller is selling the most number of products based on category and subcategories?
-* Does one seller sell its products in different categories? 
-* Does 3 factors: 
+<h2>Project Development Journal</h2>
+
+<h3><code style="color:blue">Problem Statement</code></h3>
+
+<strong>11.11 sale was going on <a href="https://www.daraz.com.bd/">Daraz</a> where discount was given on most of the products. From each category, we will go to the subcategories page. 
+Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau.</strong> 
+
+<h3><code style="color:blue"><a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Analysis</a> Requirements Blueprint</code></h3>
+
+* <strong>How many subcategories does each category have?</strong> 
+* <strong>Among all the products, how many of them are offered with standard delivery and free delivery?</strong>
+* <strong>How many Flagship and General Stores are there? Which one is more in number?</strong>
+* <strong>Which category is offered with the most and the least discount?</strong>
+* <strong>Which product has the most discount? What was its original and discount price? How much the discount prices scatter from the original prices?</strong>
+* <strong>Considering all types of ratings, which product has the highest number of ratings among all the categories and also subcategories?</strong> 
+* <strong>How many unique products are sold by each seller? Which seller is selling the most number of products based on category and subcategories?</strong>
+* <strong>Does one seller sell its products in different categories?</strong> 
+* <strong>Does 3 factors: 
   * Chat Response Rate(%), 
   * Positive Seller Ratings(%) 
   * & Ship On Time(%)
-    affects a seller on being a flagship store?
-* Among the categories, which subcategories are offered with the most & the least discounts?
-* As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?
-## Analysis and Observations
-### Overall Data Analysis
-![analysis_on_overall_data](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/27b7df19-4322-4787-90a8-c4eceab536bb)
-* Number of sub-categories within the categories ranges from 7-12.
-   * Mother & Baby
-   * TV & Home Appliances
-   * Watches, Bags & Jewellery<br/>
-    have the most number of sub-categories.
-* Daraz has more non-flagship stores than the flagship ones.
-* This e-commerce website offered more products with free delivery facility than the ones with standard delivery.
-* Categorically the most discount was offered in Men's & Boy's Fashion and the least discount was offered within Groceries.
-### Product Data Analysis
-![product_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/c59eeca2-c1fb-42ed-8a8a-4c05249113b0)
+    affects a seller on being a flagship store?</strong>
+* <strong>Among the categories, which subcategories are offered with the most & the least discounts?</strong>
+* <strong>As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?</strong>
 
-* <h4>Top 3 most discounted products within all categories -</h4>
+<h3><code style="color:blue">DashBoard</code></h3>
+<strong>You can find all the analysis within this <a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Tableau DashBoard</a></strong>
+
+<h3><code style="color:blue">Analysis and Observations</code></h3>
+
+<h4>i. Overall Data Analysis</h4>
+<img src="https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/01c6fa4b-3fdb-41d5-83f2-4c0cebff4700">
+
+* <strong>Number of sub-categories within the categories ranges from 7-12.</strong>
+   * <strong>Mother & Baby</strong>
+   * <strong>TV & Home Appliances</strong>
+   * <strong>Watches, Bags & Jewellery<br/>
+     have the most number of sub-categories.</strong>
+* <strong>Daraz has more non-flagship stores than the flagship ones.</strong>
+* <strong>This e-commerce website offered more products with free delivery facility than the ones with standard delivery.</strong>
+* <strong>Categorically the most discount was offered in Men's & Boy's Fashion and the least discount was offered within Groceries.</strong>
+
+<h4>ii. Product Data Analysis</h4>
+<img src="https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/3cef6608-4768-4cd2-8ac0-d3dcce3e1af5">
+
+* <strong>Top 3 most discounted products within all categories -</strong>
 
      | <p align="center">Product Name</p> | <p align="center">Discount(%)</p> |
      | --------------------------------- | ----------------------------------- |
@@ -41,9 +53,9 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
      | <p align="center">New Style Leather feragamo Belt For Men & Black Leather Formal Belt For Men</p> | <p align="center">92</p> |
      | <p align="center">Men's Pu Leather Wallet High Quality Men Long Wallet Male Business Pu Leather Purse & Black High quality Leather Long Wallet For Men</p> | <p align="center">91</p> |
 
-* <h4>There were many products where no discount was offered.</h4>
+* <strong>There were many products where no discount was offered.</strong>
 
-* <h4>Top 3 products with most number of ratings among all categories -</h4>
+* <strong>Top 3 products with most number of ratings among all categories -</strong>
 
      | <p align="center">Product Name</p> | <p align="center">Number of Ratings</p> |
      | --------------------------------- | ----------------------------------- |
@@ -51,12 +63,12 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
      | <p align="center">S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen</p> | <p align="center">8908</p> |
      | <p align="center">Local Onion 1 kg (± 25 gm) - onion</p> | <p align="center">6280</p> |
   
-* <h4>There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.</h4>
+* <strong>There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.</strong>
 
-### Seller Data Analysis
-![seller_data_analysis](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ee988217-986c-443e-b725-fe29c9ca3b99)
+<h4>iii. Seller Data Analysis</h4>
+<img src="https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/98168bd5-1262-4d8a-bd5b-31ff4b7fc680">
 
-* <h4>Top 3 sellers selling most number of distinct products: -</h4>
+* <strong>Top 3 sellers selling most number of distinct products: -</strong>
 
      | <p align="center">Seller Name</p> | <p align="center">Product Count</p> |
      | --------------------------------- | ----------------------------------- |
@@ -64,20 +76,20 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
      | <p align="center">SWAP</p> | <p align="center">101</p> |
      | <p align="center">Well-being Distribution Ltd.</p> | <p align="center">66</p> |
   
-* <h4>There are many sellers who sells products in different categories and also in various sub-categories.</h4>
+* <strong>There are many sellers who sells products in different categories and also in various sub-categories.</strong>
   
-* A seller's Avg.
-  * Chat Response Rate(%)
-  * Positive Seller Ratings(%)
-  * Ship On Time(%) <br/>
-    don't affect it on being a flagship seller.
-    
-### Break-even point & sub-caterical average discount analysis 
-![discount_ _break-even_point](https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/ca47c76c-5d37-44f0-83e3-2b2833887b3d)
+* <strong>A seller's Avg.</strong>
+  * <strong>Chat Response Rate(%)</strong>
+  * <strong>Positive Seller Ratings(%)</strong>
+  * <strong>Ship On Time(%) <br/>
+    don't affect it on being a flagship seller.</strong>
 
-* <h4>There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.</h4>
+<h4>iv. Break-even Point & Sub-caterical Average Discount Analysis </h4>
+<img src="https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/da8fabf8-7cd2-4d1b-bc0d-49d04ab1c857"> 
 
-* <h4>Sub-categorical most discount -</h4>
+* <strong>There is a relationship between the offered discount and the number of products to be sold to reach a break-even point. So, as much as the discount is, the more the products to be sold to reach the break-even point equal to the price of 50 products.</strong>
+
+* <strong>Sub-categorical most discount -</strong>
 
 | **Category** | **Sub-category** | **Discount** | 
 | ------------ | ---------------- | ------------ |
@@ -92,9 +104,6 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 | <p align="center">Health & Beauty</p> | <p align="center">Beauty Tools</p> | <p align="center">38.64</p> |
 | <p align="center">Groceries</p> | <p align="center">Cooking Ingredents</p> | <p align="center">33.64</p> |
 
-## You can find all the analysis within this [Tableau DashBoard](https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data)
-
-## How to use: - 
 1. Clone the repo
 ```bash
 git clone https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis.git
