@@ -72,23 +72,65 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 <h4>ii. Product Data Analysis</h4>
 <img src="https://github.com/Neloy-Barman/Daraz-11.11-Top-Selling-Product-Data-Analysis/assets/110896263/3cef6608-4768-4cd2-8ac0-d3dcce3e1af5">
 
-* <strong>Top 3 most discounted products within all categories -</strong>
+* <strong>Top 5 most discounted products within all categories -</strong>
 
-     | <p align="center">Product Name</p> | <p align="center">Discount(%)</p> |
-     | --------------------------------- | ----------------------------------- |
-     | <p align="center">(11 Taka Deal) Dancing cactus talking cactus Stuffed Plush Toy Electronic toy with song plush cactus potted toy Early Education Toy For kids</p> | <p align="center">98</p> |
-     | <p align="center">New Style Leather feragamo Belt For Men & Black Leather Formal Belt For Men</p> | <p align="center">92</p> |
-     | <p align="center">Men's Pu Leather Wallet High Quality Men Long Wallet Male Business Pu Leather Purse & Black High quality Leather Long Wallet For Men</p> | <p align="center">91</p> |
-
+     <table>
+      <tr>
+       <th align="center">Product Name</th>
+       <th align="center">Discount(%)</th>
+      </tr>
+      <tr>
+       <td>(11 Taka Deal) Dancing cactus talking cactus Stuffed Plush Toy Electronic toy with song plush cactus potted toy Early Education Toy For kids</td>
+       <td align="center">98</td>
+      </tr>
+      <tr>
+       <td>New Style Leather feragamo Belt For Men<br>Black Leather Formal Belt For Men</td>
+       <td align="center">92</td>
+      </tr>
+      <tr>
+       <td>Men's Pu Leather Wallet High Quality Men Long Wallet Male Business Pu Leather Purse<br>Black High quality Leather Long Wallet For Men</td>
+       <td align="center">91</td>
+      </tr>
+      <tr>
+       <td>Je-ep Chocolate Artificial Leather Long Wallet for Men<br>Grey Regular Fit China Cotton Golf Cap For Men - Cap For Men - Cap - Winter Cap<br>Furdani Stylish High quality Artificial Leather wallet for men<br>Canvas Wild Polyester Belts For Men - Belt For Men</td>
+       <td align="center">90</td>
+      </tr>
+      <tr>
+       <td>Superb Indispensable -Upscale Living -Black Color Cotton DJ Cap for Men- Inventive Choice Remarkable - Disclose Styles & Luxe<br>Men Wallets Men Jeep Wallet with Coin Bag Small Money Purses New Design Dollar Slim Purse Money Clip Wallet<br>Jeep Long High quality Artificial Leather wallet For Men<br>Jeep Chocolate High quality High Capacity Artificial Leather Long Wallet for Man<br>Jeep Black Long Artificial Leather Wallet for men<br>High quality Artificial Leather belt for men<br>11 Taka Deal Joya Ultra Comfort Wings - 8 Pads Pack - pad</td>
+       <td align="center">89</td>
+      </tr>
+     </table>
+     
 * <strong>There were many products where no discount was offered.</strong>
 
-* <strong>Top 3 products with most number of ratings among all categories -</strong>
+* <strong>Top 5 products with most number of ratings among all categories -</strong>
 
-     | <p align="center">Product Name</p> | <p align="center">Number of Ratings</p> |
-     | --------------------------------- | ----------------------------------- |
-     | <p align="center">Diamond potato 1kg ± 25 gm</p> | <p align="center">11914</p> |
-     | <p align="center">S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen</p> | <p align="center">8908</p> |
-     | <p align="center">Local Onion 1 kg (± 25 gm) - onion</p> | <p align="center">6280</p> |
+ <table>
+  <tr>
+   <th align="center">Product Name</th>
+   <th align="center">Number of Ratings</th>
+  </tr>
+  <tr>
+   <td>Diamond potato 1kg ± 25 gm</td>
+   <td align="center">11914</td>
+  </tr>
+  <tr>
+   <td>S8 Ultra Smart Watch Series 8 Ultra Men Women Bluetooth Call Wireless Charging Fitness Bracelet 1.95/1.44 Inch HD Screen</td>
+   <td align="center">8908</td>
+  </tr>
+  <tr>
+   <td>Local Onion 1 kg (± 25 gm) - onion</td>
+   <td align="center">6280</td>
+  </tr>
+  <tr>
+   <td>QKZ DM10 Zinc Alloy HiFi Earphones</td>
+   <td align="center">5430</td>
+  </tr>
+  <tr>
+   <td>Imported Onion 1 kg</td>
+   <td align="center">4868</td>
+  </tr>
+ </table>
   
 * <strong>There are various types of products among all categories but potato and onion which are take place in the most number of ratings products.</strong>
 
@@ -97,11 +139,32 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 * <strong>Top 3 sellers selling most number of distinct products: -</strong>
 
-     | <p align="center">Seller Name</p> | <p align="center">Product Count</p> |
-     | --------------------------------- | ----------------------------------- |
-     | <p align="center">Daraz Fresh</p> | <p align="center">114</p> |
-     | <p align="center">SWAP</p> | <p align="center">101</p> |
-     | <p align="center">Well-being Distribution Ltd.</p> | <p align="center">66</p> |
+<table>
+ <tr>
+  <th align="center">Seller Name</th>
+  <th align="center">Product Count</th>
+ </tr>
+ <tr>
+  <td>Daraz Fresh</td>
+  <td align="center">114</td>
+ </tr>
+ <tr>
+  <td>SWAP</td>
+  <td align="center">101</td>
+ </tr>
+ <tr>
+  <td>Well-being Distribution Ltd.</td>
+  <td align="center">66</td>
+ </tr>
+ <tr>
+  <td>FOGG Bangladesh</td>
+  <td align="center">62</td>
+ </tr>
+ <tr>
+  <td>Unilever</td>
+  <td align="center">61</td>
+ </tr>
+</table>
   
 * <strong>There are many sellers who sells products in different categories and also in various sub-categories.</strong>
   
