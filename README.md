@@ -9,30 +9,55 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 <h3><code style="color:blue">Data Collection</code></h3>
 
-<strong>I collected all the data data using web scraping with selenium. You can find all the scraper files and the scraped data within "scrapers" folder. The initial dataset contains </strong>
+<strong>I collected all the data data using web scraping with selenium. You can find all the scraper files and the scraped data within "scrapers" folder. Firstly I collected categorywise product data in different csv files. After that, I merged all the csv files into one. For some reason, I missed the sub-categories name. In place of the name I kept the urls. That's why to replace the urls with names, I collected the names in different csv files. Check out the overview of the initial collected data in the following table.</strong>
 
-<table>
- <tr>
-  <td>Dataset Type</td>
-  <td>Tabular</td>
- </tr>
- <tr>
-  <td>File Extenstion</td>
-  <td>csv</td>
- </tr>
- <tr>
-  <td>Rows</td>
-  <td>12907</td>
- </tr>
- <tr>
-  <td>Columns</td>
-  <td>14</td>
- </tr>
-</table>
+<div align="center">
+  <table>
+    <tr>
+      <th>File Name</th>
+      <th>Dataset Type</th>
+      <th>File Extension</th>
+      <th>Rows</th>
+      <th>Columns</th>
+    </tr>
+    <tr>
+      <td align="center">merged_data.csv</td>
+      <td align="center">Tabular</td>
+      <td align="center">csv</td>
+      <td align="center">12907</td>
+      <td align="center">14</td>
+    </tr>
+    <tr>
+      <td align="center">subcategories.csv</td>
+      <td align="center">Tabular</td>
+      <td align="center">csv</td>
+      <td align="center">119</td>
+      <td align="center">3</td>
+    </tr>
+  </table>
+</div>
 
 <h3><code style="color:blue">Data Cleaning & EDA</code></h3>
-
-<strong>I performed necessary redundant data cleaning. Then some findings were done using pandas. You can find the data analysis notebook within the notebook folder.</strong>
+<strong>I performed necessary redundant data cleaning. The bottom table refers to the overview of the final dataset.</strong>
+<div align="center">
+  <table>
+    <tr>
+      <th>File Name</th>
+      <th>Dataset Type</th>
+      <th>File Extension</th>
+      <th>Rows</th>
+      <th>Columns</th>
+    </tr>
+    <tr>
+      <td align="center">Top_Selling_Product_Data.csv</td>
+      <td align="center">Tabular</td>
+      <td align="center">csv</td>
+      <td align="center">12907</td>
+      <td align="center">15</td>
+    </tr>
+  </table>
+</div>
+<strong>Some data anaylsis parts on the final dataset were done using pandas. You can find the data analysis notebook within the "notebooks" folder.</strong>
 
 <h3><code style="color:blue"><a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Analysis</a> Requirements Blueprint</code></h3>
 
