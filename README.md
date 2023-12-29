@@ -8,7 +8,6 @@
 Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau.</strong> 
 
 <h3><code style="color:blue">Data Collection</code></h3>
-
 <strong>I collected all the data data using web scraping with selenium. You can find all the scraper files and the scraped data within "scrapers" folder. Firstly I collected categorywise product data in different csv files. After that, I merged all the csv files into one. For some reason, I missed the sub-categories name. In place of the name I kept the urls. That's why to replace the urls with names, I collected the names in different csv files. Check out the overview of the initial collected data in the following table.</strong>
 
 <div align="center">
@@ -38,7 +37,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 </div>
 
 <h3><code style="color:blue">Data Cleaning & EDA</code></h3>
-<strong>I performed necessary redundant data cleaning. The bottom table refers to the overview of the final dataset.</strong>
+<strong>I performed necessary redundant data cleaning. Check out the final dataset at <a href="https://www.kaggle.com/datasets/neloybarman018/daraz-11-11-top-selling-product-data">Top Selling Product Data</a>. The bottom table refers to the overview of the final dataset.</strong>
 <div align="center">
   <table>
     <tr>
