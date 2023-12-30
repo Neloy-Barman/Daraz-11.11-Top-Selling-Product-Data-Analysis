@@ -163,7 +163,7 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 * <strong>Top 3 sellers selling most number of distinct products: -</strong>
 
-<table>
+<table align="center">
  <tr>
   <th align="center">Seller Name</th>
   <th align="center">Product Count</th>
@@ -205,18 +205,63 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 * <strong>Sub-categorical most discount -</strong>
 
-| **Category** | **Sub-category** | **Discount** | 
-| ------------ | ---------------- | ------------ |
-| <p align="center">Men's & Boy's Fashion</p> | <p align="center">Accessories</p> | <p align="center">67.52</p> |
-| <p align="center">Watches, Bags, Jewellery</p> | <p align="center">Shop Men's Bags Online in Bangladesh</p> | <p align="center">61.55</p> |
-| <p align="center">Electronic Device</p> | <p align="center">Mobile Accessories</p> | <p align="center">51.18</p> |
-| <p align="center">Electronic Accessories</p> | <p align="center">Audio</p> | <p align="center">49.89</p> |
-| <p align="center">Mother & Baby</p> | <p align="center">Sports & Outdoor Play</p> | <p align="center">46.18</p> |
-| <p align="center">Sports & Outdoors</p> | <p align="center">Shoes & Clothing</p> | <p align="center">46.36</p> |
-| <p align="center">Automotive & Motorbike</p> | <p align="center">Interior Accessories</p> | <p align="center">44.84</p> |
-| <p align="center">TV & Home Appliances</p> | <p align="center">TV & Video Accessories</p> | <p align="center">41.11</p> |
-| <p align="center">Health & Beauty</p> | <p align="center">Beauty Tools</p> | <p align="center">38.64</p> |
-| <p align="center">Groceries</p> | <p align="center">Cooking Ingredents</p> | <p align="center">33.64</p> |
+<table align="center">
+  <tr>
+    <th>Category</th>
+    <th>Sub-category</th>
+    <th>Discount(%)</th>
+  </tr>
+  <tr>
+     <td align="center">Men's & Boy's Fashion</td>
+     <td align="center">Accessories</td>
+     <td align="center">67.52</td>
+  </tr>
+  <tr>
+     <td align="center">Watches, Bags, Jewellery</td>
+     <td align="center">Shop Men's Bags Online in Bangladesh</td>
+     <td align="center">61.55</td>
+  </tr>
+  <tr>
+     <td align="center">Electronic Device</td>
+     <td align="center">Mobile Accessories</td>
+     <td align="center">51.18</td>
+  </tr>
+  <tr>
+     <td align="center">Electronic Accessories</td>
+     <td align="center">Audio</td>
+     <td align="center">49.89</td>
+  </tr>
+  <tr>
+     <td align="center">Mother & Baby</td>
+     <td align="center">Sports & Outdoor Play</td>
+     <td align="center">46.18</td>
+  </tr>
+  <tr>
+     <td align="center">Sports & Outdoors</td>
+     <td align="center">Shoes & Clothing</td>
+     <td align="center">46.36</td>
+  </tr>
+  <tr>
+     <td align="center">Automotive & Motorbike</td>
+     <td align="center">Interior Accessories</td>
+     <td align="center">44.84</td>
+  </tr>
+  <tr>
+     <td align="center">TV & Home Appliances</td>
+     <td align="center">TV & Video Accessories</td>
+     <td align="center">41.11</td>
+  </tr>
+  <tr>
+     <td align="center">Health & Beauty</td>
+     <td align="center">Beauty Tools</td>
+     <td align="center">38.64</td>
+  </tr>
+  <tr>
+     <td align="center">Groceries</td>
+     <td align="center">Cooking Ingredents</td>
+     <td align="center">33.64</td>
+  </tr>
+</table>
 
 <h3><code style="color:blue">How to Use Scraper Files</code></h3>
 
