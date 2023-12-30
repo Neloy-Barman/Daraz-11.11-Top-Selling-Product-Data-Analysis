@@ -60,20 +60,20 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
 
 <h3><code style="color:blue"><a href="https://public.tableau.com/app/profile/neloy.barman/viz/Daraz11_11TopSellingProductDataAnalysis/analysis_on_overall_data">Analysis</a> Requirements Blueprint</code></h3>
 
-* <strong>How many subcategories does each category have?</strong> 
+* <strong>How many sub-categories does each category have?</strong> 
 * <strong>Among all the products, how many of them are offered with standard delivery and free delivery?</strong>
 * <strong>How many Flagship and General Stores are there? Which one is more in number?</strong>
 * <strong>Which category is offered with the most and the least discount?</strong>
 * <strong>Which product has the most discount? What was its original and discount price? How much the discount prices scatter from the original prices?</strong>
-* <strong>Considering all types of ratings, which product has the highest number of ratings among all the categories and also subcategories?</strong> 
-* <strong>How many unique products are sold by each seller? Which seller is selling the most number of products based on category and subcategories?</strong>
+* <strong>Considering all types of ratings, which product has the highest number of ratings among all the categories and also sub-categories?</strong> 
+* <strong>How many unique products are sold by each seller? Which seller is selling the most number of products based on category and sub-categories?</strong>
 * <strong>Does one seller sell its products in different categories?</strong> 
 * <strong>Does 3 factors: 
   * Chat Response Rate(%), 
   * Positive Seller Ratings(%) 
   * & Ship On Time(%)
     affects a seller on being a flagship store?</strong>
-* <strong>Among the categories, which subcategories are offered with the most & the least discounts?</strong>
+* <strong>Among the categories, which sub-categories are offered with the most & the least discounts?</strong>
 * <strong>As much as the discount is, the more the seller has to sell the products to reach a break-even point equal to the original price of 50 products. Is it true?</strong>
 
 <h3><code style="color:blue">DashBoard</code></h3>
