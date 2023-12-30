@@ -4,7 +4,7 @@
 
 <h3><code style="color:blue">Problem Statement</code></h3>
 
-<strong>11.11 sale was going on <a href="https://www.daraz.com.bd/">Daraz</a> where discount was given on most of the products. From each category, we will go to the subcategories page. 
+<strong>11.11 sale was going on <a href="https://www.daraz.com.bd/">Daraz</a> where discount was given on most of the products. From each category, we will go to the sub-categories page. 
 Then fetch the top selling products data from the first 3 pages and prepare a dataset. Henceafter, we will apply data transformation and do data analysis using Tableau.</strong> 
 
 <h3><code style="color:blue">Data Collection</code></h3>
