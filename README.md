@@ -263,6 +263,9 @@ Then fetch the top selling products data from the first 3 pages and prepare a da
   </tr>
 </table>
 
+<h3><code style="color:blue">Short Video Demonstration</code></h3>
+<strong>I prepared a short video demonstration and shared it as a linked in post. Check it out <a href="https://www.linkedin.com/feed/update/urn:li:activity:7149069888232243200/">here</a>.</strong>
+
 <h3><code style="color:blue">How to Use Scraper Files</code></h3>
 
 1. Clone the repo
